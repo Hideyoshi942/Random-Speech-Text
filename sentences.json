@@ -1,0 +1,459 @@
+[
+  {
+    "jp": "簡単に自己紹介をお願いします。",
+    "romaji": "Kantan ni jikoshoukai o onegaishimasu.",
+    "vi": "Bạn hãy giới thiệu bản thân một cách ngắn gọn."
+  },
+  {
+    "jp": "なぜ日本でITエンジニアとして働きたいと思いましたか？",
+    "romaji": "Naze Nihon de IT enginia to shite hatarakitai to omoimashita ka?",
+    "vi": "Vì sao bạn muốn làm việc tại Nhật Bản với vai trò kỹ sư IT?"
+  },
+  {
+    "jp": "バックエンド開発の経験や勉強内容について教えてください。",
+    "romaji": "Bakkuendo kaihatsu no keiken ya benkyou naiyou ni tsuite oshiete kudasai.",
+    "vi": "Hãy cho chúng tôi biết về kinh nghiệm hoặc nội dung bạn đã học về backend."
+  },
+  {
+    "jp": "Javaを使った開発で、どのようなことをしてきましたか？",
+    "romaji": "Java o tsukatta kaihatsu de, dono youna koto o shite kimashita ka?",
+    "vi": "Khi dùng Java để phát triển, trước đây bạn đã làm những việc gì?"
+  },
+  {
+    "jp": "オブジェクト指向プログラミングについて簡単に説明してください。",
+    "romaji": "Obujekuto shikou puroguramingu ni tsuite kantan ni setsumei shite kudasai.",
+    "vi": "Hãy giải thích ngắn gọn về lập trình hướng đối tượng."
+  },
+  {
+    "jp": "最近勉強した技術やフレームワークで、印象に残っているものはありますか？",
+    "romaji": "Saikin benkyou shita gijutsu ya fureemuwaaku de, inshou ni nokotte iru mono wa arimasu ka?",
+    "vi": "Gần đây bạn có học công nghệ hay framework nào khiến bạn ấn tượng không?"
+  },
+  {
+    "jp": "データベースの設計やSQLの経験について教えてください。",
+    "romaji": "Deetabeesu no sekkei ya SQL no keiken ni tsuite oshiete kudasai.",
+    "vi": "Hãy nói về kinh nghiệm của bạn với thiết kế database và SQL."
+  },
+  {
+    "jp": "開発の中で、エラーやバグが出たとき、どのように調査・対応しますか？",
+    "romaji": "Kaihatsu no naka de, eraa ya bagu ga deta toki, dono you ni chousa taiou shimasu ka?",
+    "vi": "Khi gặp lỗi hoặc bug trong quá trình phát triển, bạn thường điều tra và xử lý như thế nào?"
+  },
+  {
+    "jp": "チーム開発の経験があれば、どのようにコミュニケーションを取っていましたか？",
+    "romaji": "Chiimu kaihatsu no keiken ga areba, dono you ni komyunikēshon o totte imashita ka?",
+    "vi": "Nếu bạn có kinh nghiệm làm việc nhóm, bạn đã giao tiếp với các thành viên như thế nào?"
+  },
+  {
+    "jp": "今後、エンジニアとしてどのように成長していきたいと考えていますか？",
+    "romaji": "Kongo, enginia to shite dono you ni seichou shite ikitai to kangaete imasu ka?",
+    "vi": "Trong tương lai, bạn muốn phát triển như thế nào với tư cách là một kỹ sư?"
+  },
+  {
+    "jp": "これまでどのようなプロジェクトに関わってきましたか？",
+    "romaji": "Kore made dono you na purojekuto ni kakawatte kimashita ka?",
+    "vi": "Từ trước đến nay bạn đã tham gia vào những dự án nào?"
+  },
+  {
+    "jp": "その中で、あなたはどのような役割を担当しましたか？",
+    "romaji": "Sono naka de, anata wa dono you na yakuwari o tantou shimashita ka?",
+    "vi": "Trong các dự án đó, bạn đã đảm nhận vai trò gì?"
+  },
+  {
+    "jp": "得意なプログラミング言語は何ですか？",
+    "romaji": "Tokui na puroguramingu gengo wa nan desu ka?",
+    "vi": "Ngôn ngữ lập trình bạn mạnh nhất là gì?"
+  },
+  {
+    "jp": "最近、新しい技術を学びましたか？何を学びましたか？",
+    "romaji": "Saikin, atarashii gijutsu o manabimashita ka? Nani o manabimashita ka?",
+    "vi": "Gần đây bạn có học công nghệ mới nào không? Bạn đã học gì?"
+  },
+  {
+    "jp": "過去のプロジェクトで、一番大変だったことは何ですか？",
+    "romaji": "Kako no purojekuto de, ichiban taihen datta koto wa nan desu ka?",
+    "vi": "Trong các dự án trước đây, điều khó khăn nhất với bạn là gì?"
+  },
+  {
+    "jp": "あなたの強みは何ですか？",
+    "romaji": "Anata no tsuyomi wa nan desu ka?",
+    "vi": "Điểm mạnh của bạn là gì?"
+  },
+  {
+    "jp": "あなたの弱みは何ですか？改善方法は？",
+    "romaji": "Anata no yowami wa nan desu ka? Kaizen houhou wa?",
+    "vi": "Điểm yếu của bạn là gì? Bạn cải thiện nó như thế nào?"
+  },
+  {
+    "jp": "テスト経験はありますか？",
+    "romaji": "Tesuto keiken wa arimasu ka?",
+    "vi": "Bạn có kinh nghiệm về test không?"
+  },
+  {
+    "jp": "仕事で、一番やりがいを感じた瞬間は？",
+    "romaji": "Shigoto de, ichiban yarigai o kanjita shunkan wa nan desu ka?",
+    "vi": "Khoảnh khắc nào trong công việc khiến bạn cảm thấy có động lực nhất?"
+  },
+  {
+    "jp": "困難な状況を乗り越えた経験を教えてください。",
+    "romaji": "Konnan na joukyou o norikoeta keiken o oshiete kudasai.",
+    "vi": "Hãy kể về một trải nghiệm bạn đã vượt qua một tình huống khó khăn."
+  },
+  {
+    "jp": "なぜこの会社に応募しましたか？",
+    "romaji": "Naze kono kaisha ni oubo shimashita ka?",
+    "vi": "Tại sao bạn ứng tuyển vào công ty chúng tôi?"
+  },
+  {
+    "jp": "将来、どのようなエンジニアになりたいですか？",
+    "romaji": "Shourai, dono you na enginia ni naritai desu ka?",
+    "vi": "Trong tương lai, bạn muốn trở thành kiểu kỹ sư như thế nào?"
+  },
+  {
+    "jp": "他に受けている会社はありますか？",
+    "romaji": "Hoka ni ukete iru kaisha wa arimasu ka?",
+    "vi": "Hiện tại bạn còn đang phỏng vấn ở công ty nào khác không?"
+  },
+  {
+    "jp": "チームで働くことと、一人で働くこと、どちらが好きですか？",
+    "romaji": "Chiimu de hataraku koto to, hitori de hataraku koto, dochira ga suki desu ka?",
+    "vi": "Bạn thích làm việc nhóm hay làm việc một mình hơn?"
+  },
+  {
+    "jp": "どのような環境で働きたいですか？",
+    "romaji": "Dono you na kankyou de hatarakitai desu ka?",
+    "vi": "Bạn muốn làm việc trong môi trường như thế nào?"
+  },
+  {
+    "jp": "趣味は何ですか？",
+    "romaji": "Shumi wa nan desu ka?",
+    "vi": "Sở thích của bạn là gì?"
+  },
+  {
+    "jp": "周りの人から、どんな人と言われますか？",
+    "romaji": "Mawari no hito kara, donna hito to iwaremasu ka?",
+    "vi": "Mọi người xung quanh thường nhận xét bạn là người như thế nào?"
+  },
+  {
+    "jp": "ストレスを感じた時、どう解消しますか？",
+    "romaji": "Sutoresu o kanjita toki, dou kaishou shimasu ka?",
+    "vi": "Khi cảm thấy căng thẳng, bạn thường giải toả bằng cách nào?"
+  },
+  {
+    "jp": "意見が違う人と、どう話し合いますか？",
+    "romaji": "Iken ga chigau hito to, dou hanashiaimasu ka?",
+    "vi": "Bạn trao đổi thế nào với người có ý kiến khác với mình?"
+  },
+  {
+    "jp": "仕事でわからないことがあった時、どう解決しますか？",
+    "romaji": "Shigoto de wakaranai koto ga atta toki, dou kaiketsu shimasu ka?",
+    "vi": "Khi gặp vấn đề không hiểu trong công việc, bạn thường giải quyết như thế nào?"
+  },
+  {
+    "jp": "入社日はいつから可能ですか？",
+    "romaji": "Nyūsha-bi wa itsu kara kanou desu ka?",
+    "vi": "Bạn có thể bắt đầu đi làm từ khi nào?"
+  },
+  {
+    "jp": "希望年収はどのくらいですか？",
+    "romaji": "Kibou nenshū wa dono kurai desu ka?",
+    "vi": "Mức lương mong muốn hàng năm của bạn là khoảng bao nhiêu?"
+  },
+  {
+    "jp": "残業はできますか？",
+    "romaji": "Zangyō wa dekimasu ka?",
+    "vi": "Bạn có thể làm thêm giờ không?"
+  },
+  {
+    "jp": "弊社について、気になることはありますか？",
+    "romaji": "Heisha ni tsuite, ki ni naru koto wa arimasu ka?",
+    "vi": "Bạn có điều gì muốn hỏi thêm về công ty chúng tôi không?"
+  },
+  {
+    "jp": "待遇に関して、何か希望はありますか？",
+    "romaji": "Taigū ni kanshite, nanika kibou wa arimasu ka?",
+    "vi": "Về chế độ đãi ngộ, bạn có mong muốn gì không?"
+  },
+  {
+    "jp": "日本語で技術的なことを説明できますか？",
+    "romaji": "Nihongo de gijutsuteki na koto o setsumei dekimasu ka?",
+    "vi": "Bạn có thể giải thích các nội dung kỹ thuật bằng tiếng Nhật không?"
+  },
+  {
+    "jp": "日本語でレポートを書いたことがありますか？",
+    "romaji": "Nihongo de repooto o kaita koto ga arimasu ka?",
+    "vi": "Bạn đã từng viết báo cáo bằng tiếng Nhật chưa?"
+  },
+  {
+    "jp": "日本語の勉強で難しいことは何ですか？",
+    "romaji": "Nihongo no benkyou de muzukashii koto wa nan desu ka?",
+    "vi": "Điều gì là khó nhất khi bạn học tiếng Nhật?"
+  },
+  {
+    "jp": "日本語のどのような点を克服したいですか？",
+    "romaji": "Nihongo no dono you na ten o kokufuku shitai desu ka?",
+    "vi": "Bạn muốn cải thiện điểm nào trong tiếng Nhật của mình?"
+  },
+  {
+    "jp": "日本語を勉強するとき、一番面白いことは何ですか。",
+    "romaji": "Nihongo o benkyou suru toki, ichiban omoshiroi koto wa nan desu ka?",
+    "vi": "Điều thú vị nhất với bạn khi học tiếng Nhật là gì?"
+  },
+  {
+    "jp": "研修はありますか？勉強サポートはありますか？",
+    "romaji": "Kenshū wa arimasu ka? Benkyou sapooto wa arimasu ka?",
+    "vi": "Công ty có chương trình đào tạo hay hỗ trợ học tập không?"
+  },
+  {
+    "jp": "入社前に知っておくべきことはありますか？",
+    "romaji": "Nyūsha mae ni shitte oku beki koto wa arimasu ka?",
+    "vi": "Trước khi vào công ty, có điều gì tôi nên biết trước không?"
+  },
+  {
+    "jp": "〇〇さんがこの会社で一番うれしかったことは？",
+    "romaji": "〇〇-san ga kono kaisha de ichiban ureshikatta koto wa nan desu ka?",
+    "vi": "Điều khiến anh/chị 〇〇 vui nhất khi làm việc tại công ty này là gì?"
+  },
+  {
+    "jp": "会社ではイベントがありますか？",
+    "romaji": "Kaisha dewa ibento ga arimasu ka?",
+    "vi": "Công ty có các sự kiện nội bộ không?"
+  },
+  {
+    "jp": "入社後、最初にどのような仕事を担当しますか？",
+    "romaji": "Nyūshago, saisho ni dono you na shigoto o tantou shimasu ka?",
+    "vi": "Sau khi vào công ty, tôi sẽ phụ trách công việc gì đầu tiên?"
+  },
+  {
+    "jp": "Ibank 2.0 のアカウントサービスでは、具体的にどの機能を担当しましたか？",
+    "romaji": "Ibank ni ten zero no akaunto saabisu dewa, gutai-teki ni dono kinou o tantou shimashita ka?",
+    "vi": "Trong dịch vụ tài khoản của dự án Ibank 2.0, cụ thể bạn đã phụ trách những chức năng nào?"
+  },
+  {
+    "jp": "取引承認（プッシュ承認）の機能はどのように実装しましたか？",
+    "romaji": "Torihiki shounin (pusshu shounin) no kinou wa dono you ni jissou shimashita ka?",
+    "vi": "Chức năng phê duyệt giao dịch (phê duyệt bằng push) bạn đã hiện thực như thế nào?"
+  },
+  {
+    "jp": "情報照会機能の API では、どのようなデータ処理を行いましたか？",
+    "romaji": "Jouhou shoukai kinou no API dewa, dono you na deeta shori o okonai mashita ka?",
+    "vi": "Ở API chức năng tra cứu thông tin, bạn đã xử lý dữ liệu như thế nào?"
+  },
+  {
+    "jp": "自動テスト機能の開発では、どのようなツール・技術を使いましたか？",
+    "romaji": "Jidou tesuto kinou no kaihatsu dewa, dono you na tuuru / gijutsu o tsukaimashita ka?",
+    "vi": "Khi phát triển chức năng test tự động, bạn đã dùng những công cụ/kỹ thuật nào?"
+  },
+  {
+    "jp": "30名規模のプロジェクトで、どのようにチームと連携していましたか？",
+    "romaji": "Sanjuu-mei kibo no purojekuto de, dono you ni chiimu to renkei shite imashita ka?",
+    "vi": "Trong dự án quy mô khoảng 30 người, bạn đã phối hợp với team như thế nào?"
+  },
+  {
+    "jp": "カードサービスの API 開発では、どのような技術的課題がありましたか？",
+    "romaji": "Kaado saabisu no API kaihatsu dewa, dono you na gijutsuteki kadai ga arimashita ka?",
+    "vi": "Trong phát triển API cho dịch vụ thẻ, bạn đã gặp những vấn đề kỹ thuật nào?"
+  },
+  {
+    "jp": "設計書の作成を担当したとのことですが、どのような項目をまとめましたか？",
+    "romaji": "Sekkeisho no sakusei o tantou shita to no koto desu ga, dono you na koumoku o matomemashita ka?",
+    "vi": "Bạn nói là có phụ trách viết tài liệu thiết kế, bạn đã tổng hợp những mục nào?"
+  },
+  {
+    "jp": "Card Service と Account Service の違いは何ですか？",
+    "romaji": "Kaado saabisu to akaunto saabisu no chigai wa nan desu ka?",
+    "vi": "Sự khác nhau giữa Card Service và Account Service là gì?"
+  },
+  {
+    "jp": "HobbyNest の EC サイトで担当した「商品管理機能」の詳細を教えてください。",
+    "romaji": "HobbyNest no EC saito de tantou shita shouhin kanri kinou no shousai o oshiete kudasai.",
+    "vi": "Trong website EC HobbyNest, hãy nói rõ hơn về chức năng quản lý sản phẩm mà bạn phụ trách."
+  },
+  {
+    "jp": "Laravel でどのような API を開発しましたか？",
+    "romaji": "Laravel de dono you na API o kaihatsu shimashita ka?",
+    "vi": "Với Laravel, bạn đã phát triển những API như thế nào?"
+  },
+  {
+    "jp": "NuxtJS 側では、どんな修正・開発を行いましたか？",
+    "romaji": "NuxtJS gawa dewa, donna shuusei / kaihatsu o okonai mashita ka?",
+    "vi": "Ở phía NuxtJS, bạn đã thực hiện những chỉnh sửa/phát triển gì?"
+  },
+  {
+    "jp": "Azure DevOps をどのように利用していましたか？",
+    "romaji": "Azure DevOps o dono you ni riyou shite imashita ka?",
+    "vi": "Bạn đã sử dụng Azure DevOps như thế nào trong dự án?"
+  },
+  {
+    "jp": "2週間の短期間でどのように作業を進めましたか？",
+    "romaji": "Nishuukan no tankikan de dono you ni sagyou o susumemashita ka?",
+    "vi": "Trong khoảng thời gian ngắn 2 tuần, bạn đã sắp xếp và triển khai công việc ra sao?"
+  },
+  {
+    "jp": "Spring Boot でよく使うアノテーションは何ですか？",
+    "romaji": "Supuringu Buuto de yoku tsukau anotēshon wa nan desu ka?",
+    "vi": "Trong Spring Boot, bạn thường dùng những annotation nào?"
+  },
+  {
+    "jp": "取引承認機能ではどのような設計パターンを使いましたか？",
+    "romaji": "Torihiki shounin kinou dewa dono you na sekkei patān o tsukaimashita ka?",
+    "vi": "Ở chức năng phê duyệt giao dịch, bạn đã dùng những pattern thiết kế nào?"
+  },
+  {
+    "jp": "Oracle DB を使う際、パフォーマンスを改善した経験はありますか？",
+    "romaji": "Oracle DB o tsukau sai, pafōmansu o kaizen shita keiken wa arimasu ka?",
+    "vi": "Khi dùng Oracle DB, bạn đã từng cải thiện hiệu năng chưa? Cụ thể như thế nào?"
+  },
+  {
+    "jp": "Laravel の強みと弱みは何ですか？",
+    "romaji": "Laravel no tsuyomi to yowami wa nan desu ka?",
+    "vi": "Điểm mạnh và điểm yếu của Laravel là gì?"
+  },
+  {
+    "jp": "Eloquent と Query Builder の違いを説明できますか？",
+    "romaji": "Eloquent to Query Builder no chigai o setsumei dekimasu ka?",
+    "vi": "Bạn có thể giải thích sự khác nhau giữa Eloquent và Query Builder không?"
+  },
+  {
+    "jp": "NuxtJS のライフサイクルを説明してください。",
+    "romaji": "NuxtJS no raifu saikuru o setsumei shite kudasai.",
+    "vi": "Hãy giải thích vòng đời (lifecycle) của NuxtJS."
+  },
+  {
+    "jp": "Vue/Nuxt で API 連携部分はどのように書きましたか？",
+    "romaji": "Vue / Nuxt de API renkei bubun wa dono you ni kakimashita ka?",
+    "vi": "Khi kết nối API trong Vue/Nuxt, bạn đã viết phần đó như thế nào?"
+  },
+  {
+    "jp": "GitLab / Azure DevOps でのタスク管理方法を説明してください。",
+    "romaji": "GitLab / Azure DevOps de no tasuku kanri houhou o setsumei shite kudasai.",
+    "vi": "Hãy giải thích cách bạn quản lý task trên GitLab / Azure DevOps."
+  },
+  {
+    "jp": "Kibana をどのように使ってログ分析を行いましたか？",
+    "romaji": "Kibana o dono you ni tsukatte rogu bunseki o okonaimashita ka?",
+    "vi": "Bạn đã sử dụng Kibana để phân tích log như thế nào?"
+  },
+  {
+    "jp": "バックエンドエンジニアとして、一番大事だと思うスキルは何ですか？",
+    "romaji": "Bakkuendo enginia to shite, ichiban daiji da to omou sukiru wa nan desu ka?",
+    "vi": "Theo bạn, kỹ năng quan trọng nhất đối với một backend engineer là gì?"
+  },
+  {
+    "jp": "大規模プロジェクトの中で、あなたの役割はどのように変化しましたか？",
+    "romaji": "Daikibo purojekuto no naka de, anata no yakuwari wa dono you ni henka shimashita ka?",
+    "vi": "Trong dự án lớn, vai trò của bạn đã thay đổi như thế nào theo thời gian?"
+  },
+  {
+    "jp": "バグ調査をするとき、どんな手順で原因を探しますか？",
+    "romaji": "Bagu chousa o suru toki, donna tejun de gen'in o sagashimasu ka?",
+    "vi": "Khi điều tra bug, bạn thường làm theo các bước nào để tìm nguyên nhân?"
+  },
+  {
+    "jp": "コードレビューの経験はありますか？どのようにレビューしますか？",
+    "romaji": "Koodo rebyuu no keiken wa arimasu ka? Dono you ni rebyuu shimasu ka?",
+    "vi": "Bạn đã từng review code chưa? Bạn review theo cách nào?"
+  },
+  {
+    "jp": "一番大変だった不具合と、どのように解決したか教えてください。",
+    "romaji": "Ichiban taihen datta fuguai to, dono you ni kaiketsu shita ka oshiete kudasai.",
+    "vi": "Hãy kể về lỗi khó nhất mà bạn từng gặp và bạn đã giải quyết nó như thế nào."
+  },
+  {
+    "jp": "パフォーマンス問題を改善した経験はありますか？",
+    "romaji": "Pafōmansu mondai o kaizen shita keiken wa arimasu ka?",
+    "vi": "Bạn đã từng cải thiện vấn đề hiệu năng chưa? Kinh nghiệm cụ thể như thế nào?"
+  },
+  {
+    "jp": "締め切りが厳しい時、どのようにタスクを整理しますか？",
+    "romaji": "Shimekiri ga kibishii toki, dono you ni tasuku o seiri shimasu ka?",
+    "vi": "Khi deadline gấp, bạn sắp xếp và ưu tiên công việc như thế nào?"
+  },
+  {
+    "jp": "チーム内で意見が合わない時、どう対応しますか？",
+    "romaji": "Chiimu-nai de iken ga awanai toki, dou taiou shimasu ka?",
+    "vi": "Khi trong team có ý kiến bất đồng, bạn xử lý như thế nào?"
+  },
+  {
+    "jp": "なぜバックエンドを選びましたか？",
+    "romaji": "Naze bakkuendo o erabimashita ka?",
+    "vi": "Tại sao bạn chọn mảng backend?"
+  },
+  {
+    "jp": "なぜ日本で働きたいですか？",
+    "romaji": "Naze Nihon de hatarakitai desu ka?",
+    "vi": "Vì sao bạn muốn làm việc ở Nhật?"
+  },
+  {
+    "jp": "将来、どのようなエンジニアになりたいですか？",
+    "romaji": "Shourai, dono you na enginia ni naritai desu ka?",
+    "vi": "Trong tương lai, bạn muốn trở thành kiểu kỹ sư như thế nào?"
+  },
+  {
+    "jp": "AWS の資格をどのように活かしたいですか？",
+    "romaji": "AWS no shikaku o dono you ni ikashitai desu ka?",
+    "vi": "Bạn muốn tận dụng chứng chỉ AWS như thế nào trong công việc?"
+  },
+  {
+    "jp": "長期的なキャリアプランを教えてください。",
+    "romaji": "Chouki-teki na kyaria puran o oshiete kudasai.",
+    "vi": "Hãy chia sẻ kế hoạch nghề nghiệp dài hạn của bạn."
+  },
+  {
+    "jp": "技術的な内容を日本語で説明できますか？",
+    "romaji": "Gijutsuteki na naiyou o Nihongo de setsumei dekimasu ka?",
+    "vi": "Bạn có thể giải thích nội dung kỹ thuật bằng tiếng Nhật không?"
+  },
+  {
+    "jp": "日本語を使ってミーティングに参加した経験はありますか？",
+    "romaji": "Nihongo o tsukatte miitingu ni sanka shita keiken wa arimasu ka?",
+    "vi": "Bạn đã từng tham gia họp bằng tiếng Nhật chưa?"
+  },
+  {
+    "jp": "今後、日本語をどうやって伸ばしていく予定ですか？",
+    "romaji": "Kongo, Nihongo o douyatte nobashite iku yotei desu ka?",
+    "vi": "Trong thời gian tới, bạn dự định cải thiện tiếng Nhật của mình như thế nào?"
+  },
+  {
+    "jp": "日本人と仕事をする時に気をつけていることは何ですか？",
+    "romaji": "Nihonjin to shigoto o suru toki ni ki o tsukete iru koto wa nan desu ka?",
+    "vi": "Khi làm việc với người Nhật, bạn chú ý điều gì?"
+  },
+  {
+    "jp": "ストレスが溜まった時、どうやって解消しますか？",
+    "romaji": "Sutoresu ga tamatta toki, douyatte kaishou shimasu ka?",
+    "vi": "Khi bị stress, bạn thường giải toả như thế nào?"
+  },
+  {
+    "jp": "自分の長所と短所を教えてください。",
+    "romaji": "Jibun no chousho to tansho o oshiete kudasai.",
+    "vi": "Hãy cho biết điểm mạnh và điểm yếu của bản thân bạn."
+  },
+  {
+    "jp": "新しい技術をどのように勉強していますか？",
+    "romaji": "Atarashii gijutsu o dono you ni benkyou shite imasu ka?",
+    "vi": "Bạn thường học công nghệ mới theo cách nào?"
+  },
+  {
+    "jp": "チームで働く時に最も大切にしていることは何ですか？",
+    "romaji": "Chiimu de hataraku toki ni mottomo taisetsu ni shite iru koto wa nan desu ka?",
+    "vi": "Khi làm việc nhóm, điều bạn coi trọng nhất là gì?"
+  },
+  {
+    "jp": "学校で学んだことは、実務でどう役に立ちましたか？",
+    "romaji": "Gakkou de mananda koto wa, jitsumu de dou yaku ni tachimashita ka?",
+    "vi": "Những gì học ở trường đã giúp ích thế nào cho công việc thực tế?"
+  },
+  {
+    "jp": "インターンで身につけたスキルを教えてください。",
+    "romaji": "Intān de mi ni tsuketa sukiru o oshiete kudasai.",
+    "vi": "Hãy cho biết những kỹ năng bạn đã học được trong kỳ thực tập."
+  },
+  {
+    "jp": "実務経験が短い中で、自信があるポイントは何ですか？",
+    "romaji": "Jitsumu keiken ga mijikai naka de, jishin ga aru pointo wa nan desu ka?",
+    "vi": "Dù kinh nghiệm thực tế còn ít, điểm bạn tự tin nhất là gì?"
+  }
+]
+
+
