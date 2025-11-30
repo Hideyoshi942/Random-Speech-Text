@@ -70,6 +70,8 @@
     .tooltip::after{content:'';position:absolute;bottom:-6px;left:20px;width:0;height:0;border-left:6px solid transparent;border-right:6px solid transparent;border-top:6px solid #1e293b}
     .sentence-word{cursor:help;position:relative;border-bottom:1px dotted #0ea5a4;transition:background 0.2s}
     .sentence-word:hover{background:rgba(14,165,164,0.1)}
+    .text-hidden{display:none!important}
+    .text-visible{display:block}
     @media (max-width:640px){body{padding:8px}.card{padding:16px}.sentence{font-size:24px}.controls{flex-direction:column;align-items:stretch}button{width:100%}}
   </style>
 </head>
@@ -87,6 +89,13 @@
       </div>
     </div>
     <div class="tooltip" id="tooltip"></div>
+    
+    <div class="mode-row" style="margin-top:12px">
+      <strong>Hiển thị text:</strong>
+      <label><input type="checkbox" id="showJP" checked /> Tiếng Nhật</label>
+      <label><input type="checkbox" id="showRomaji" checked /> Romaji</label>
+      <label><input type="checkbox" id="showVI" checked /> Tiếng Việt</label>
+    </div>
 
     <div class="controls">
       <button id="nextBtn" class="primary">Đọc câu khác <span class="shortcut-hint">(Space)</span></button>
@@ -148,6 +157,9 @@
     const jpEl = document.getElementById('jp');
     const romajiEl = document.getElementById('romaji');
     const viEl = document.getElementById('vi');
+    const showJPCheck = document.getElementById('showJP');
+    const showRomajiCheck = document.getElementById('showRomaji');
+    const showVICheck = document.getElementById('showVI');
     const nextBtn = document.getElementById('nextBtn');
     const replayBtn = document.getElementById('replayBtn');
     const pauseBtn = document.getElementById('pauseBtn');
@@ -189,6 +201,9 @@
     let voicesReady = false; // Đảm bảo voices đã load xong
     let tooltipTimeout = null;
     let answerVisible = false; // Trạng thái hiển thị câu trả lời
+    let showJP = true; // Hiển thị tiếng Nhật
+    let showRomaji = true; // Hiển thị romaji
+    let showVI = true; // Hiển thị tiếng Việt
 
     function pickRandom(){
       if(!sentences.length) return null;
@@ -223,7 +238,10 @@
         jpVoice: jpVoiceSelect?.value || '',
         viVoice: viVoiceSelect?.value || '',
         sequentialIndex: sequentialIndex,
-        answerVisible: answerVisible
+        answerVisible: answerVisible,
+        showJP: showJP,
+        showRomaji: showRomaji,
+        showVI: showVI
       };
       try{
         localStorage.setItem('speechReaderSettings', JSON.stringify(settings));
@@ -266,6 +284,21 @@
             toggleAnswer(true);
           }
         }
+        if(settings.showJP !== undefined){
+          showJP = settings.showJP;
+          if(showJPCheck) showJPCheck.checked = showJP;
+        }
+        if(settings.showRomaji !== undefined){
+          showRomaji = settings.showRomaji;
+          if(showRomajiCheck) showRomajiCheck.checked = showRomaji;
+        }
+        if(settings.showVI !== undefined){
+          showVI = settings.showVI;
+          if(showVICheck) showVICheck.checked = showVI;
+        }
+        
+        // Áp dụng trạng thái hiển thị text
+        updateTextVisibility();
         
         // Voice settings sẽ được áp dụng sau khi voices load xong
         return true;
@@ -446,6 +479,37 @@
     function updateCounter(){
       if(sentences.length > 0){
         counter.textContent = `${currentIndex + 1} / ${sentences.length}`;
+      }
+    }
+
+    // Cập nhật hiển thị/ẩn các phần text
+    function updateTextVisibility(){
+      if(jpEl){
+        if(showJP){
+          jpEl.classList.remove('text-hidden');
+          jpEl.style.display = 'block';
+        } else {
+          jpEl.classList.add('text-hidden');
+          jpEl.style.display = 'none';
+        }
+      }
+      if(romajiEl){
+        if(showRomaji){
+          romajiEl.classList.remove('text-hidden');
+          romajiEl.style.display = 'block';
+        } else {
+          romajiEl.classList.add('text-hidden');
+          romajiEl.style.display = 'none';
+        }
+      }
+      if(viEl){
+        if(showVI){
+          viEl.classList.remove('text-hidden');
+          viEl.style.display = 'block';
+        } else {
+          viEl.classList.add('text-hidden');
+          viEl.style.display = 'none';
+        }
       }
     }
 
@@ -819,6 +883,29 @@
     }
     if(closeAnswerBtn){
       closeAnswerBtn.addEventListener('click', () => toggleAnswer(false));
+    }
+
+    // Event listeners cho ẩn/hiện text
+    if(showJPCheck){
+      showJPCheck.addEventListener('change', () => {
+        showJP = showJPCheck.checked;
+        updateTextVisibility();
+        saveSettings();
+      });
+    }
+    if(showRomajiCheck){
+      showRomajiCheck.addEventListener('change', () => {
+        showRomaji = showRomajiCheck.checked;
+        updateTextVisibility();
+        saveSettings();
+      });
+    }
+    if(showVICheck){
+      showVICheck.addEventListener('change', () => {
+        showVI = showVICheck.checked;
+        updateTextVisibility();
+        saveSettings();
+      });
     }
 
     // Load danh sách câu từ JSON (tối ưu)
